@@ -1,0 +1,13 @@
+[
+    {
+        "rem": "this is super-#",
+        "key": "meta+[Backslash]",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "meta+g",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    }
+]
